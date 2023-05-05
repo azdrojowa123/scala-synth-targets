@@ -7,11 +7,16 @@ scala_test_suite(
         exclude = ["scala/com/example/inside/*.scala"],
     ),
     deps = [
-        ":lib",
+        ":lib00",
     ],
 )
 
 scala_library(
-    name = "lib",
+    name = "lib00",
     srcs = glob(["scala/com/example/inside/*.scala"]),
+)
+
+scala_library(
+    name = "lib3",
+    srcs = glob(["scala/com/example/inside2/*.scala"]),
 )

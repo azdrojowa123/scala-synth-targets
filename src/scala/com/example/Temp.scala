@@ -1,5 +1,7 @@
 package com.example
 
-object Temp {
+import inside.Inside
 
+object Temp {
+  Inside.inside()
 }

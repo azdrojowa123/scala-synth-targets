@@ -1,7 +1,10 @@
 package com.example.temp
+package oo
 
 import com.example.inside.Inside
 
-object Temp11 {
+object O {
+
   Inside.inside()
+
 }
